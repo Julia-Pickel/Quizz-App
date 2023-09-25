@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 200px;
+  top: 80px;
   /* margin: 80px 0 45px 0; */
   font-family: system-ui;
   background-color: white;
@@ -41,10 +41,27 @@ body {
 .card__question {
   font-size: 20px;
   text-align: center;
-  margin: 0 0 10px 0;
+  margin: 10px 40px 20px 40px;
 }
 
 .card__answer {
   font-size: 15px;
   text-align: center;
+}
+
+.footer {
+  background: blue;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+}
+
+.footer__button {
+  z-index: 1;
+  background: orangered;
+  color: white;
+  text-decoration: none;
+  bottom: 60px;
 }
