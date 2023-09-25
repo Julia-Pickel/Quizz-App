@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 200px;
+  /* margin: 80px 0 45px 0; */
+  font-family: system-ui;
+  background-color: white;
+}
+
 .header {
   background: blue;
   color: #ffffff;
@@ -13,4 +23,28 @@
   width: 100%;
   z-index: 1;
   top: 0;
+}
+
+.header__heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px 10px 20px 10px;
+  border: 2px solid black;
+  position: relative;
+  height: 150px;
+}
+
+.card__question {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.card__answer {
+  font-size: 15px;
+  text-align: center;
 }
