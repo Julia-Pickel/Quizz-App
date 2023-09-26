@@ -49,19 +49,31 @@ body {
   text-align: center;
 }
 
-.footer {
+footer {
+  position: fixed;
   background: blue;
   color: white;
-  position: fixed;
-  bottom: 0px;
-  height: 30px;
   width: 100%;
+  z-index: 1;
+  bottom: 0px;
+  /* height: 30px; */
 }
 
-.footer__button {
-  z-index: 1;
-  background: orangered;
+/*
+      Footer Navigation
+  */
+
+ul.nav-list {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
   color: white;
-  text-decoration: none;
-  bottom: 60px;
+  list-style-type: none;
+  font-size: 6vw;
+  padding: 5%;
+  margin: 0px;
+}
+
+li.nav-link a {
+  color: white;
 }
